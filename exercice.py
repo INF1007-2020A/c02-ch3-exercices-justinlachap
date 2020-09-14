@@ -1,5 +1,5 @@
-def dissipated_power(voltage, resistance):
-    return (voltage ** 2) / resistance
+#def dissipated_power(voltage, resistance):
+    #return (voltage ** 2) / resistance
 
 
 def orthogonal(v1, v2):
@@ -7,9 +7,9 @@ def orthogonal(v1, v2):
     produit += v1[0] * v2[0]
     produit += v1[1] * v2[1]
     if produit == 0:
-        return 'vrai'
+        return 'Vrai'
     else:
-        return 'faux'
+        return 'Faux'
 
 
 def average(values):
@@ -44,7 +44,7 @@ def bills(value):
 
 
 if __name__ == "__main__":
-    print(dissipated_power(69, 420))
+    #print(dissipated_power(69, 420))
     print(orthogonal((1, 1), (-1, 1)))
     print(average([1, 4, -2, 10]))
     print(bills(137))
