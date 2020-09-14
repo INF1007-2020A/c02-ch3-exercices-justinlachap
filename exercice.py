@@ -14,13 +14,15 @@ def orthogonal(v1, v2):
 
 def average(values):
     moy = 0
+    lenght = 0
     for v in values:
         if v < 0:
             pass
         else:
             moy += v
+            lenght+=1
 
-    return moy/len(values)
+    return moy/lenght
 
 
 def bills(value):
