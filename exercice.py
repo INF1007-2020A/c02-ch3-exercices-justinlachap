@@ -40,9 +40,8 @@ def bills(value):
         elif value >= 2:
             twos += 1
             value -= 2
-        else:
+        elif value == 1:
             ones += 1
-            value -= 1
 
 
     return (twenties, tens, fives, twos, ones)
