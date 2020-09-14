@@ -1,6 +1,3 @@
-#!/usr/bin/env python
-
-
 def dissipated_power(voltage, resistance):
     return (voltage ** 2) / resistance
 
