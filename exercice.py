@@ -15,7 +15,10 @@ def orthogonal(v1, v2):
 def average(values):
     moy = 0
     for v in values:
-        moy += v
+        if v < 0:
+            pass
+        else:
+            moy += v
 
     return moy/len(values)
 
